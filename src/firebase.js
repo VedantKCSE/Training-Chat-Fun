@@ -9,13 +9,13 @@ import 'firebase/storage';
 
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyBNli2_umdvpCKlLEr3LH_7lwl8707fKtA",
-    authDomain: "chat-app-b75a5.firebaseapp.com",
-    projectId: "chat-app-b75a5",
-    storageBucket: "chat-app-b75a5.appspot.com",
-    messagingSenderId: "670659314603",
-    appId: "1:670659314603:web:d904fe47b44be7c78f48ee"
-  };
+  apiKey: "AIzaSyCdGIwGf8ani2Lc-zP-3zUo6Vsor8cIq6I",
+  authDomain: "traning-chat-app.firebaseapp.com",
+  projectId: "traning-chat-app",
+  storageBucket: "traning-chat-app.appspot.com",
+  messagingSenderId: "171830879697",
+  appId: "1:171830879697:web:a10209e7a382c40ab7acf0"
+};
 
   const app = initializeApp(firebaseConfig);
     const auth = getAuth();
